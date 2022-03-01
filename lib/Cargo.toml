@@ -12,9 +12,9 @@ edition = "2021"
 crate-type = ["staticlib"]
 
 [profile.release]
-opt-level = 3
 lto = true
 strip = true
+opt-level = 3
 panic = "abort"
 codegen-units = 1
 debug-assertions = false
