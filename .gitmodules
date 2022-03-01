@@ -1,0 +1,3 @@
+[submodule "lib/roaringbitmap"]
+	path = lib/roaringbitmap
+	url = git@github.com:lemire/CRoaringUnityBuild.git
