@@ -6,8 +6,7 @@ proc map(str: string, fun: (char) -> char): string =
   for c in str:
     result &= fun(c)
 
-# sugar also provides a "=>" macro for the actual lambda
-# value
+# sugar also provides a "=>" macro for the actual lambda value
 echo "foo".map((c) => char(ord(c) + 1))
 
 
