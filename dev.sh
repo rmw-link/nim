@@ -7,6 +7,6 @@ set -ex
 if ! [ -x "$(command -v watchexec)" ]; then
 cargo install watchexec-cli
 fi
-watchexec -r -e nim nimble run
+watchexec -c -r -e nim nimble run
 
 
